@@ -1442,6 +1442,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1478821fc1ea23028b70e21a0389c253, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panelMenu: {fileID: 675175321}
+  panelSettings: {fileID: 737952698}
 --- !u!4 &564847698
 Transform:
   m_ObjectHideFlags: 0
