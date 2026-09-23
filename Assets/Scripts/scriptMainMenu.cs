@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class scriptMainMenu : MonoBehaviour
 {
+    [Header("Panels")]
+    public GameObject panelMenu;
+    public GameObject panelSettings;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -26,10 +30,20 @@ public class scriptMainMenu : MonoBehaviour
         }
     }
 
-    public void Settings()
+    public void ToggleSettings()
     {
-        Debug.Log("Entered Settings");
-
+        if (panelMenu.activeSelf)
+        {   
+            panelMenu.SetActive(false);
+            panelSettings.SetActive(true);
+            Debug.Log("Entered Settings");
+        }
+        else
+        {
+            panelMenu.SetActive(true);
+            panelSettings.SetActive(false);
+            Debug.Log("Entered Main menu");
+        }
     }
 
     public void ExitGame()
