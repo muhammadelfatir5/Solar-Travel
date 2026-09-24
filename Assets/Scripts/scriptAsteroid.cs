@@ -15,7 +15,7 @@ public class scriptAsteroid : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x <= -10.0f)
+        if (transform.position.x <= -15.0f)
         {
             Destroy(gameObject);
         }
