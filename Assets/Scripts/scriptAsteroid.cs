@@ -15,7 +15,10 @@ public class scriptAsteroid : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (transform.position.x <= -10.0f)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
