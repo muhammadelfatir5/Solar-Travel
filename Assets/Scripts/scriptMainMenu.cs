@@ -9,6 +9,8 @@ public class scriptMainMenu : MonoBehaviour
     public GameObject panelMenu;
     public GameObject panelSettings;
 
+    public bool isNew = false; // Eventually read a global variable (or preferably from a file) to detect a save file.
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -17,7 +19,6 @@ public class scriptMainMenu : MonoBehaviour
 
     public void StartGame()
     {
-        bool isNew = false; // Eventually read a global variable (or preferably from a file) to detect a save file.
         if (isNew)
         {
             Debug.Log("Started new game");       
@@ -26,7 +27,7 @@ public class scriptMainMenu : MonoBehaviour
         else
         {
             Debug.Log("Attempting to load save");
-            SceneManager.LoadScene("sceneMainGame");
+            SceneManager.LoadScene("scenePlanetView");
         }
     }
 
