@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 9831d2712d23a8c40ae8661899ebd84c
+guid: 9492ba9179bd91946a5b1f2510216590
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1642666275727691344
-    second: roket pixel_0
-  - first:
-      213: 814975061509889683
-    second: roket pixel_1
-  - first:
-      213: 5401240688236555650
-    second: roket pixel_2
-  - first:
-      213: 8301634081245139892
-    second: roket pixel_3
+      213: 4090602169602310063
+    second: Karakter Dino_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: roket pixel_0
+      name: Karakter Dino_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 29
-        width: 87
-        height: 39
+        x: 16
+        y: 0
+        width: 33
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,74 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 05e4349464cebc610800000000000000
-      internalID: 1642666275727691344
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: roket pixel_1
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 57
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 39e5912208f5f4b00800000000000000
-      internalID: 814975061509889683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: roket pixel_2
-      rect:
-        serializedVersion: 2
-        x: 86
-        y: 41
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 28de9b8f9cf05fa40800000000000000
-      internalID: 5401240688236555650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: roket pixel_3
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 31
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b394e38634553370800000000000000
-      internalID: 8301634081245139892
+      spriteID: faf7694100db4c830800000000000000
+      internalID: 4090602169602310063
       vertices: []
       indices: 
       edges: []
@@ -223,10 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      roket pixel_0: 1642666275727691344
-      roket pixel_1: 814975061509889683
-      roket pixel_2: 5401240688236555650
-      roket pixel_3: 8301634081245139892
+      Karakter Dino_0: 4090602169602310063
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
