@@ -30,7 +30,7 @@ public class scriptPlanetHandler : MonoBehaviour
                 continue;
             }
 
-            Transform lockTransform = PlanetLevels[i].transform.Find("Lock");
+            Transform lockTransform = PlanetLevels[i].transform.Find("lock");
             if (lockTransform != null)
             {
                 GameObject lockObject = lockTransform.gameObject;
