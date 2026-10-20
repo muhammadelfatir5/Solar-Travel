@@ -5,9 +5,7 @@ using TMPro;
 public class ScriptRocketTime : MonoBehaviour
 {
     public float duration = 10f;
-    public string nextSceneName = "scenePlanetSurface";
-    public TMP_Text timerText; // opsional
-
+    public TMP_Text timerText;
     private float timeLeft;
     private bool finished;
 
@@ -27,7 +25,7 @@ public class ScriptRocketTime : MonoBehaviour
         if (timeLeft <= 0f)
         {
             finished = true;
-            SceneManager.LoadScene(nextSceneName);
+            SceneManager.LoadScene("scenePlanetSurface");
         }
     }
 
