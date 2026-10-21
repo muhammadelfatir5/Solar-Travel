@@ -4136,7 +4136,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5223345282623002806, guid: 0a4430ef79465978ebfad687d79dcf49, type: 3}
+  m_Sprite: {fileID: -6901966721496947686, guid: c3dcbb7ca9955d2419a02725c20f4872, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4780,6 +4780,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: planet1
       objectReference: {fileID: 0}
+    - target: {fileID: 6417770900699960726, guid: dc2136aa4b77695cea762e1a2e21efc3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -8162874446858240531, guid: 0db25e3bf38614f4fb1ce5d062984d0d, type: 3}
     - target: {fileID: 8153735261177150511, guid: dc2136aa4b77695cea762e1a2e21efc3, type: 3}
       propertyPath: m_Sprite
       value: 
